@@ -1,6 +1,6 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiDjango, SiPostgresql, SiTypescript } from "react-icons/si";
-import { FaGit, FaPython } from "react-icons/fa";
+import { SiDjango, SiExpress, SiGit, SiPostgresql, SiStyledcomponents, SiTypescript } from "react-icons/si";
+import { FaGit, FaPython, FaVuejs } from "react-icons/fa";
 import {
   FaDocker,
   FaHtml5,
@@ -11,31 +11,19 @@ import {
 } from "react-icons/fa";
 
 export const stackData = [
-  {
-    title: "HTML",
-    img: FaHtml5,
-  },
-  {
-    title: "CSS",
-    img: FaCss3Alt,
-  },
-  {
-    title: "JS",
-    img: FaJs,
-  },
+  { title: "JavaScript", img: FaJs, },
   { title: "TypeScript", img: SiTypescript },
-  {
-    title: "Node JS",
-    img: FaNode,
-  },
-  {
-    title: "React",
-    img: FaReact,
-  },
+  { title: "Python", img: FaPython },
+  { title: "Node JS", img: FaNode, },
+  { title: "React", img: FaReact, },
+  { title: "Vuejs", img: FaVuejs },
+  { title: "Django", img: SiDjango },
+  { title: "Express", img: SiExpress, },
+  { title: "Git", img: SiGit },
   { title: "Next.js", img: TbBrandNextjs },
   { title: "Docker", img: FaDocker },
   { title: "PostgreSQL", img: SiPostgresql },
-  { title: "Git", img: FaGit },
-  { title: "Python", img: FaPython },
-  { title: "Django", img: SiDjango}
+  { title: "HTML", img: FaHtml5, },
+  { title: "CSS", img: FaCss3Alt, },
+  { title: "Styled Components", img: SiStyledcomponents, },
 ];

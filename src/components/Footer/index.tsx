@@ -16,19 +16,19 @@ export const Footer = (): JSX.Element => {
             src={`https://github.com/${userData.githubUser}.png`}
             alt={userData.nameUser}
             title={userData.nameUser}
-            width={"70px"}
-            height={"70px"}
+            width={"100px"}
+            height={"100px"}
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Thank you! {/* <HandEffect /> */}
+              Obrigado! {/* <HandEffect /> */}
             </Text>
             <Text type="body1" color="grey2">
-              Follow me on my social networks and let's talk
+              Espero que logo menos possamos fazer trabalhar juntos!
             </Text>
           </Box>
         </Flex>
-        <Flex
+        {/* <Flex
           css={{
             flexWrap: "wrap",
             justifyContent: "center",
@@ -62,7 +62,7 @@ export const Footer = (): JSX.Element => {
           >
             <FaLinkedinIn />
           </Button>
-        </Flex>
+        </Flex> */}
       </Container>
     </FooterWrapper>
   );

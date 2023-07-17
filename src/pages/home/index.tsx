@@ -44,29 +44,43 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Olá! Eu sou {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              Transformo as suas{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                ideias
               </Text>{" "}
-              creating and{" "}
+              em{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
+                realidade
+              </Text>
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Seja Bem-vind@!
+              <br />
+              Desenvolvedor Web Full Stack em formação, já fiz mais de 40 projetos
+              voltados para diversos fins como e-commerce, landpages, sites
+              empresariais, contratação de serviços gerais, consulta em API’s
+              abertas entre outros.
+              <br />
+              Para isto, usei diversas tecnologias, entre elas; React, Typescript,
+              HTML5, CSS3, Express, Django juntamente de metodologias ágeis como
+              SCRUM, KANBAN e GITFLOW.
+              <br />
+              E com isso estou aberto para uma oportunidade como Desenvolvedor
+              Web Front, Back ou Full Stack.
+              <br /><br/>
+              Nesse ambiente, você encontrará as tecnologias que já possuo
+              habilidade e também poderá verificar os projetos que já desenvolvi!
+
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Ver projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+                Ver código fonte deste portfolio
               </Button>
               <Button
                 color="grey5"
@@ -92,13 +106,7 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
-              </Text>
-              <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
-                <Text as="span" color="brand5">
-                  side projects
-                </Text>
+                Meus projetos
               </Text>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
