@@ -41,10 +41,10 @@ export const Home = (): JSX.Element => {
                 src={`https://github.com/${userData.githubUser}.png`}
                 alt={userData.nameUser}
                 title={userData.nameUser}
-                width={"48px"}
-                height={"48px"}
+                // width={"70px"}
+                // height={"70px"}
               />
-              <Text color="grey4">Olá! Eu sou {userData.nameUser}</Text>
+              <Text type="heading1" color="grey4" >Olá! Eu sou {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
               Transformo as suas{" "}
